@@ -1,0 +1,107 @@
+ 
+ .Title{
+    text-align: center;
+    text-decoration: underline #292341;
+ }
+ .Group li {
+    list-style: none;
+ }
+ .Group{
+    width: 120px;
+    border-radius:  10px;
+    border: 1px solid #292341;
+    margin-left: 3%;
+    float: left;
+ }
+ .par{
+    background: #a6a6a8;
+    margin-left: -20px;
+ }
+ .impar{
+    background: #dadadd;
+    margin-left: -20px;
+    
+ }
+ hr{
+    width: 100%;
+ }
+
+ .Group16{
+    width: 120px;
+    border-radius:  10px;
+    border: 1px solid #292341;
+    margin-left: 3%;
+    float: left;
+    height: 140px;
+ }
+ .Group16 li{
+    list-style: none;
+ }
+
+ #vs, #vs2, #vs3, #vs4, #vs5, #vs6, #vs7, #vs8, #vs9, #vs10, #vs11, #vs12, #vs13, #vs14, #vs15, #vs16{
+   display: none;
+ }
+ .neutro{
+   background-color: #f7f7f7;
+   text-align: center;
+ }
+ .Groups{
+   width: 100%;
+   float: none;
+ }
+ .Quarter{
+   width: 100%;
+   float: none;
+ }
+ .quarter{
+   margin-left: 25%;
+ }
+ .semi{
+   margin-left: 35%;
+ }
+ .finalgame{
+   margin-left: 30%;
+ }
+ .win{
+   margin-left: 43%;
+ }
+ 
+
+ @media  (max-width:768px){
+   .win{
+      margin-left: 40%;
+   }
+   .finalgame{
+      margin-left: 0;
+   }
+   .semi{
+      margin-left: 15%;
+   }
+   .quarter{
+      margin-left: 0;
+   }
+   #Round16{
+      margin-left: 10%;
+   }
+   #Groups{
+      margin-left: 10%;
+   }
+ }
+ @media  (max-width:500px){
+   .win{
+      margin-left: 30%;
+   }
+   .finalgame500{
+      margin-left: 13%;
+   }
+   .semi{
+      margin-left: 15%;
+   }
+  
+   .Round16500{
+      margin-left: 10%;
+   }
+   #Groups{
+      margin-left: 10%;
+   }
+ }
