@@ -1,4 +1,53 @@
  
+ /* estilo de menu */
+
+#btn-menu{
+   display: none;
+}
+header label {
+   display: none;
+   width: 30px;
+   height: 30px;
+   padding: 10px;
+   border-right: 1px, solid #fff;
+}
+header label:hover {
+   cursor: pointer;
+   background: rgba(0, 0, 0, 0.3);
+   height: 100%;
+
+}
+.menu ul{
+   margin: 0;
+   list-style: none;
+   padding: 0;
+   display: flex;   
+}
+.menu li {
+   border-right: 1px, solid rgb(31, 30, 30);
+   background-color: #d39a74;
+   margin-bottom: 10px;
+}
+.menu li:hover{
+   background: rgba(0, 0,0, 0.3);
+}
+.menu li a {
+   display: block;
+   padding: 15px 70px;
+   color: rgb(245, 240, 240);
+   text-decoration: none;
+
+}
+.h3titu{
+   text-align: center;
+   color: gray;
+}
+.imgdeWeb{
+   width: 150px;
+   height: 150px;
+}
+ 
+ 
  .Title{
     text-align: center;
     text-decoration: underline #292341;
@@ -58,12 +107,23 @@
  }
  .semi{
    margin-left: 35%;
- }
+ } 
  .finalgame{
    margin-left: 30%;
  }
  .win{
    margin-left: 43%;
+ }
+ .Manual{
+   margin-left: 5%;
+   margin-right: 3%;
+   border: #292341 dashed;
+   margin-bottom: 3%;
+ }
+ .Manual p{
+   margin-left: 2%;
+   margin-right: 2%;
+   margin-bottom: 3%;
  }
  
 
@@ -86,6 +146,34 @@
    #Groups{
       margin-left: 10%;
    }
+   header label {
+      display: block;
+
+  }
+  .menu {
+      position: absolute;
+      background: #4e4e4e;
+      width: 70%;
+      margin-left: -70%;
+      transition: all 0.5s;
+  }
+  .menu ul {
+      flex-direction: column;
+  }
+  .menu li {
+      border-top: 1px solid #fff;
+  }
+#btn-menu:checked ~ .menu{
+  margin: 0;
+}
+  .button-container{
+      width: 85%;
+      height: 460px;
+  }
+#button-container{
+      width: 85%;
+  height: 560px;
+  }
  }
  @media  (max-width:500px){
    .win{
@@ -104,4 +192,31 @@
    #Groups{
       margin-left: 10%;
    }
+ }
+
+ @media  (min-width: 769px) and (max-width:1000px){
+   #Groups {
+      margin-left: 8%;
+   }
+   .Round16500{
+      margin-left: 8%;
+   }
+   .quarter{
+      margin-left: 12% ;
+   }
+   .semi{
+      margin-left: 33%;
+   }
+   .finalgame500{
+      margin-left: 10%;
+   }
+   .win{
+      margin-left: 40%;
+   }
+   
+ }
+ @media  (min-width: 500px) and (max-width:562px){
+   .Round16500{ margin-left: 13%;
+   }
+
  }

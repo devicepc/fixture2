@@ -12,7 +12,7 @@ for(a of  qof53){
     a.addEventListener('click', function(){
         let semwinA = this.innerHTML; 
         function s(){
-                document.getElementById("smf1").innerHTML= semwinA + '<br><li class="neutro">VS</li>';
+                document.getElementById("smf1").innerHTML= semwinA ;
               }
         s();
     })};
@@ -23,6 +23,7 @@ for(a of  qof53){
             function s(){
                 const smf2 = document.getElementById("smf2").innerText;
                     document.getElementById("smf2").innerHTML= qof2;
+                    vs9();
                   }
             s();
         })}
@@ -43,6 +44,7 @@ for(a of  qof53){
               let qof4 = this.innerHTML; 
                 function s(){
                         document.getElementById("smf4").innerHTML= qof4;
+                        vs10();
                       }
                 s();
             })}
@@ -53,7 +55,7 @@ for(a of  qof53){
           a.addEventListener('click', function(){
             let qof5 = this.innerHTML; 
               function s(){
-                      document.getElementById("smf5").innerHTML= qof5 + '<br><li class="neutro">VS</li>';
+                      document.getElementById("smf5").innerHTML= qof5 ;
                     }
               s();
           })}
@@ -64,6 +66,7 @@ for(a of  qof53){
                 function s(){
 
                         document.getElementById("smf6").innerHTML= qof6;
+                        vs11();
                       }
                 s();
             })}
@@ -73,7 +76,7 @@ for(a of  qof53){
           a.addEventListener('click', function(){
             let qof7 = this.innerHTML; 
               function s(){
-                      document.getElementById("smf7").innerHTML= qof7 + '<br><li class="neutro">VS</li>';
+                      document.getElementById("smf7").innerHTML= qof7 ;
                     }
               s();
           })}
@@ -83,9 +86,21 @@ for(a of  qof53){
               let qof8 = this.innerHTML; 
                 function s(){
                         document.getElementById("smf8").innerHTML= qof8;
+                        vs12();
                       }
                 s();
             })}
   
           
-          
+            function vs9(){
+              document.getElementById('vs9').style.display ="block";
+          }
+          function vs10(){
+              document.getElementById('vs10').style.display ="block";
+          }
+          function vs11(){
+              document.getElementById('vs11').style.display ="block";
+          }    
+          function vs12(){
+            document.getElementById('vs12').style.display ="block";
+        }   

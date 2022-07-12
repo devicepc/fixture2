@@ -111,6 +111,7 @@ for(a of roundof16g){
             const rof13 = document.getElementById("rof13").innerText;
             if(rof13 != ""){
                 document.getElementById("rof16").innerHTML= rofg;
+                
             }else{
                 document.getElementById("rof13").innerHTML= rofg ;
                 vs7();
@@ -127,6 +128,7 @@ for(a of  roundof16h){
             const rof15 = document.getElementById("rof15").innerText;
             if(rof15 != ""){
                 document.getElementById("rof14").innerHTML= rofh;
+                moveQ();
             }else{
                 document.getElementById("rof15").innerHTML= rofh ;
                 vs8();
@@ -135,14 +137,7 @@ for(a of  roundof16h){
         s();
     })}
 
-    // scrool up
-document.getElementById("ir-arriba").addEventListener("click",scrollUp);
-function scrollUp(){
-    let currentScroll = document.documentElement.scrollTop;
-    if (currentScroll >0){
-        window.scrollTo(0,0);
-    }
-}
+  
 
 function vs1(){
     document.getElementById('vs').style.display ="block";
@@ -168,4 +163,8 @@ function vs7(){
 function vs8(){
     document.getElementById('vs8').style.display ="block";
 }
-
+  // move
+  function moveQ(){
+    console.log("hew2");
+    window.scrollTo(0,420);
+}

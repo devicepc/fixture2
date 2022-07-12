@@ -20,6 +20,7 @@ for(a of  sem1){
             function s(){
                 const semiQatarwin1 = document.getElementById("semiQatar1").innerText;
                     document.getElementById("semiQatar1").innerHTML= semwinB;
+                    vs13();
                   }
             s();
         })}
@@ -30,6 +31,7 @@ for(a of  sem1){
                 function s(){
                     const semiQatarwin4 = document.getElementById("semiQatar4").innerText;
                         document.getElementById("semiQatar4").innerHTML= semwinC;
+                        movef();
                       }
                 s();
             })}
@@ -39,11 +41,15 @@ for(a of  sem1){
                     function s(){
                         const semiQatarwin3 = document.getElementById("semiQatar3").innerText;
                             document.getElementById("semiQatar3").innerHTML= semwinD;
+                            vs14();
                           }
                     s();
                 })}
         
-
+                function movef(){
+                  console.log("hew3");
+                  window.scrollTo(0,900);
+              }
 
     // finales 
     let finalClas1 = document.querySelectorAll('.semiQatarwin1');
@@ -60,6 +66,7 @@ for(a of  finalClas1){
           
       }else{
               document.getElementById("FinalGame1").innerHTML= finalClasA;
+              vs15();
             }}
       s();
   })}
@@ -74,6 +81,7 @@ for(a of  finalClas1){
               
           }else{
                 document.getElementById("FinalGame2").innerHTML= finalClasB;
+                vs16();
               }}
         s();
     })}
@@ -112,4 +120,20 @@ for(a of  finalClas1){
           s();
       })}
   
-     
+
+      function movewin(){
+        console.log("hew3");
+        window.scrollTo(0,1900);
+    }
+      function vs13(){
+        document.getElementById('vs13').style.display ="block";
+    }
+    function vs14(){
+      document.getElementById('vs14').style.display ="block";
+  }
+  function vs15(){
+    document.getElementById('vs15').style.display ="block";
+}
+function vs16(){
+  document.getElementById('vs16').style.display ="block";
+}
