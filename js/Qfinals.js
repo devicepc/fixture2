@@ -67,6 +67,7 @@ for(a of  qof53){
 
                         document.getElementById("smf6").innerHTML= qof6;
                         vs11();
+                        moveQF();
                       }
                 s();
             })}
@@ -87,6 +88,7 @@ for(a of  qof53){
                 function s(){
                         document.getElementById("smf8").innerHTML= qof8;
                         vs12();
+                        
                       }
                 s();
             })}
@@ -104,3 +106,16 @@ for(a of  qof53){
           function vs12(){
             document.getElementById('vs12').style.display ="block";
         }   
+
+       // move
+  function moveQF(){
+    console.log("quarter");
+    const pageWidth  = document.documentElement.scrollWidth;
+    if(pageWidth <=480){
+    window.scrollTo(0,1400);
+    }else if(pageWidth <=768){
+        window.scrollTo(0,690);
+    }else if(pageWidth > 1600){
+        window.scrollTo(0,420 );
+    }  
+}

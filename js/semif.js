@@ -31,7 +31,7 @@ for(a of  sem1){
                 function s(){
                     const semiQatarwin4 = document.getElementById("semiQatar4").innerText;
                         document.getElementById("semiQatar4").innerHTML= semwinC;
-                        movef();
+                        // movef();
                       }
                 s();
             })}
@@ -42,13 +42,21 @@ for(a of  sem1){
                         const semiQatarwin3 = document.getElementById("semiQatar3").innerText;
                             document.getElementById("semiQatar3").innerHTML= semwinD;
                             vs14();
+                            movef();
                           }
                     s();
                 })}
         
                 function movef(){
-                  console.log("hew3");
-                  window.scrollTo(0,900);
+                  console.log("semis");
+                  const pageWidth  = document.documentElement.scrollWidth;
+                  if(pageWidth <=480){
+                  window.scrollTo(0,2020);
+                  }else if(pageWidth <=768){
+                      window.scrollTo(0,690);
+                  }else if(pageWidth > 1600){
+                      window.scrollTo(0,420 );
+                  }
               }
 
     // finales 
@@ -78,7 +86,7 @@ for(a of  finalClas1){
             const finalClasb = document.getElementById("FinalGame2").innerText;
             if(finalClasb != ""){
               document.getElementById("FinalGame4").innerHTML= finalClasB;
-              
+              move3place();
           }else{
                 document.getElementById("FinalGame2").innerHTML= finalClasB;
                 vs16();
@@ -86,7 +94,18 @@ for(a of  finalClas1){
         s();
     })}
 
-   
+   // move
+   function move3place(){
+    const pageWidth  = document.documentElement.scrollWidth;
+        if(pageWidth <=480){
+          console.log("#3place");
+        window.scrollTo(0,2220);
+        }else if(pageWidth <=768){
+            window.scrollTo(0,690);
+        }else if(pageWidth > 1600){
+            window.scrollTo(0,420 );
+        }
+   }
    
     // final 
     let finalwin =document.querySelectorAll('.FinalGame1');
@@ -116,14 +135,23 @@ for(a of  finalClas1){
                   /* let x = ;
                   let second = x != finalwin;
                   document.getElementById("FinalSecond").innerHTML= " is : "+second; */
+                  movewin();
                 }
+               
           s();
       })}
   
 
       function movewin(){
-        console.log("hew3");
-        window.scrollTo(0,1900);
+        const pageWidth  = document.documentElement.scrollWidth;
+        if(pageWidth <=480){
+        window.scrollTo(0,2520);
+        }else if(pageWidth <=768){
+            window.scrollTo(0,690);
+        }else if(pageWidth > 1600){
+            window.scrollTo(0,420 );
+        }
+        
     }
       function vs13(){
         document.getElementById('vs13').style.display ="block";
