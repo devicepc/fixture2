@@ -64,8 +64,8 @@ header label:hover {
  }
  .par{
     background: #a6a6a8;
-    margin-left: -20px;
-    margin-right: 30%;
+    margin: 7px 30% 7px -20px;
+   
  }
  .impar{
     background: #dadadd;

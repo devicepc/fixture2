@@ -50,12 +50,14 @@ for(a of  sem1){
                 function movef(){
                   console.log("semis");
                   const pageWidth  = document.documentElement.scrollWidth;
-                  if(pageWidth <=480){
+                  if(pageWidth <=399){
+                    window.scrollTo(0,3990) 
+                 }else if(pageWidth <=480){
                   window.scrollTo(0,2020);
                   }else if(pageWidth <=768){
-                      window.scrollTo(0,690);
+                      window.scrollTo(0,1590);
                   }else if(pageWidth > 1600){
-                      window.scrollTo(0,420 );
+                      window.scrollTo(0,1420 );
                   }
               }
 
@@ -97,19 +99,22 @@ for(a of  finalClas1){
    // move
    function move3place(){
     const pageWidth  = document.documentElement.scrollWidth;
-        if(pageWidth <=480){
+        if(pageWidth <=399){
+          window.scrollTo(0,4500) 
+       }else if(pageWidth <=480){
           console.log("#3place");
         window.scrollTo(0,2220);
         }else if(pageWidth <=768){
-            window.scrollTo(0,690);
+            window.scrollTo(0,2890);
         }else if(pageWidth > 1600){
-            window.scrollTo(0,420 );
+            window.scrollTo(0,1620 );
         }
    }
    
     // final 
     let finalwin =document.querySelectorAll('.FinalGame1');
     let tPlace1 = document.querySelectorAll('.tplaceGame2');
+    let scondPlace = document.querySelectorAll('.Finalscodplace');
  // tercer lugar         
         
  
@@ -119,37 +124,40 @@ for(a of  finalClas1){
       function s(){
           const tplaceClasA = document.getElementById("Finaltplace").innerText;
               document.getElementById("Finaltplace").innerHTML= " is : "+tPlace1;
-              /* let x = ;
-              let second = x != finalwin;
-              document.getElementById("FinalSecond").innerHTML= " is : "+second; */
+              
             }
       s();
   })}
 
-    for(a of  finalwin){
-      a.addEventListener('click', function(){
-        let finalWin = this.innerHTML; 
-          function s(){
-              const finalClasb = document.getElementById("FinalWin").innerText;
-                  document.getElementById("FinalWin").innerHTML= " is : "+finalWin;
-                  /* let x = ;
-                  let second = x != finalwin;
-                  document.getElementById("FinalSecond").innerHTML= " is : "+second; */
-                  movewin();
-                }
-               
-          s();
-      })}
+
+
+      for(a of  finalwin){
+        a.addEventListener('click', function(){
+          let finalWin = this.innerHTML; 
+            function s(){
+                const finalClasb = document.getElementById("FinalWin").innerText;
+                if(finalClasb != ""){
+                  document.getElementById("Finalscodplace").innerHTML= finalWin;
+                  
+              }else{
+                    document.getElementById("FinalWin").innerHTML= finalWin;
+                    movewin(); 
+                  }}
+            s();
+        })}
   
 
       function movewin(){
         const pageWidth  = document.documentElement.scrollWidth;
-        if(pageWidth <=480){
-        window.scrollTo(0,2520);
+        if(pageWidth <=399){
+          window.scrollTo(0,4920) 
+       }else if(pageWidth <=480){
+          console.log("3lugar");
+        window.scrollTo(0,4920);
         }else if(pageWidth <=768){
-            window.scrollTo(0,690);
+            window.scrollTo(0,3090);
         }else if(pageWidth > 1600){
-            window.scrollTo(0,420 );
+            window.scrollTo(0,1620 );
         }
         
     }

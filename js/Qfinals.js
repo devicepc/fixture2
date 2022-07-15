@@ -111,11 +111,13 @@ for(a of  qof53){
   function moveQF(){
     console.log("quarter");
     const pageWidth  = document.documentElement.scrollWidth;
-    if(pageWidth <=480){
+    if(pageWidth <=399){
+      window.scrollTo(0,3300) 
+   }else if(pageWidth <=480){
     window.scrollTo(0,1400);
     }else if(pageWidth <=768){
-        window.scrollTo(0,690);
+        window.scrollTo(0,1090);
     }else if(pageWidth > 1600){
-        window.scrollTo(0,420 );
+        window.scrollTo(0,1020 );
     }  
 }

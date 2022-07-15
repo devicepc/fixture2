@@ -128,11 +128,11 @@ for(a of  roundof16h){
             const rof15 = document.getElementById("rof15").innerText;
             if(rof15 != ""){
                 document.getElementById("rof14").innerHTML= rofh;
-                
+                moveQ();
             }else{
                 document.getElementById("rof15").innerHTML= rofh ;
                 vs8();
-                moveQ();
+               
             }  }
         s();
     })}
@@ -166,12 +166,14 @@ function vs8(){
   // move
   function moveQ(){
     const pageWidth  = document.documentElement.scrollWidth;
-    if(pageWidth <=480){
-    window.scrollTo(0,2700);
+    if(pageWidth <=399){
+       window.scrollTo(0,1900) 
+    }else if(pageWidth <=480){
+    window.scrollTo(0,1100);
     }else if(pageWidth <=768){
-        window.scrollTo(0,690);
+        window.scrollTo(0,490);
     }else if(pageWidth > 1600){
-        window.scrollTo(0,420 );
+        window.scrollTo(0,720 );
     }
 
     
