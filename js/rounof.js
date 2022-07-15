@@ -167,7 +167,7 @@ function vs8(){
   function moveQ(){
     const pageWidth  = document.documentElement.scrollWidth;
     if(pageWidth <=480){
-    window.scrollTo(0,900);
+    window.scrollTo(0,1900);
     }else if(pageWidth <=768){
         window.scrollTo(0,690);
     }else if(pageWidth > 1600){
