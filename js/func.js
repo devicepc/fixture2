@@ -1,6 +1,5 @@
-import { initCountries, printwidth} from "./init.js";
+import { initCountries} from "./init.js";
 
 
 initCountries();
 
-printwidth();
