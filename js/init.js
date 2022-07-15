@@ -37,6 +37,9 @@ function initCountries (){
 
 }
 
+function printwidth(){
+    const pageWidth  = document.documentElement.scrollWidth;
+    alert("el ancho es : "+pageWidth);
+}
 
-
-export{initCountries};
+export{initCountries, printwidth};
