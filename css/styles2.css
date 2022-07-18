@@ -77,7 +77,16 @@ header label:hover {
     
  }
  hr{
-    width: 100%;
+     width: 100%; 
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
  }
 
  .Group16{
@@ -102,9 +111,9 @@ header label:hover {
  .Groups{
    width: 100%;
    float: none;
-
-  
+   display: block;
  }
+ 
  .Quarter{
    width: 100%;
    float: none;
@@ -148,7 +157,12 @@ header label:hover {
  }
  .finalgame500 {
    margin-left: 10%;
-
+}
+.main{
+   display: block;
+}
+#Round16{
+   clear: both;
 }
  
 
@@ -157,7 +171,7 @@ header label:hover {
       margin-left: 40%;
    }
    .finalgame{
-      margin-left: 0;
+      margin-left: 10%;
    }
    .semi{
       margin-left: 15%;
@@ -274,4 +288,15 @@ header label:hover {
    }
    
 
+ }
+ @media  (min-width: 399px) and (max-width:415px){
+.Group16{
+   margin-left: 1%;
+}
+.finalgame500{
+   margin-left: 1%;
+}
+.Group{
+   margin-left: 1%;
+}
  }
