@@ -12,13 +12,18 @@ let roundof16h = document.querySelectorAll('.Country8');
 for(a of roundof16a){
     a.addEventListener('click', function(){
       let element = this.innerHTML; 
+      let elem1 = element;
+     document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed';
         function s(){
             const qf1 = document.getElementById("rof1").innerText;
-            if(qf1 != ""){
+            if(qf1 != "" && elem1 !=""){
                 document.getElementById("rof4").innerHTML= element;
                 
-            }else{
+                
+            }else if(qf1 == "" && elem1 !=""){
                 document.getElementById("rof1").innerHTML= element ;
+
              vs1();
             }}
         s();
@@ -27,12 +32,15 @@ for(a of roundof16a){
 // round of 16 de gurpo b
 for(b of roundof16b){
     b.addEventListener('click', function(){
-      let elements = this.innerHTML;         
+      let elements = this.innerHTML; 
+      let elem1 = elements;
+      document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed';        
         function s(){
             const rof3 = document.getElementById("rof3").innerText;
-            if(rof3 != ""){
+            if(rof3 != "" && elem1 !=""){
                 document.getElementById("rof2").innerHTML= elements;
-            }else{
+            }else if( rof3 == "" && elem1 !=""){
                 document.getElementById("rof3").innerHTML= elements ;
                 vs2();
             }
@@ -45,14 +53,16 @@ for(b of roundof16b){
 for(c of roundof16c){
     c.addEventListener('click', function(){
       let rofc = this.innerHTML; 
+      let elem1 = rofc;
+      document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed';
         function s(){
             const rof5 = document.getElementById("rof5").innerText;
-            if(rof5 != ""){
+            if(rof5 != "" && elem1 !=""){
                 document.getElementById("rof8").innerHTML= rofc;
-            }else{
+            }else if( rof5 == "" && elem1 !=""){
                 document.getElementById("rof5").innerHTML= rofc ;
                 vs3();
-                
             } }
         s();   
     })}
@@ -60,12 +70,15 @@ for(c of roundof16c){
 
 for(d of roundof16d){
     d.addEventListener('click', function(){
-      let rofd = this.innerHTML;         
+      let rofd = this.innerHTML; 
+      let elem1 = rofd;
+      document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed';        
         function s(){
             const rof7 = document.getElementById("rof7").innerText;
-            if(rof7 != ""){
+            if(rof7 != "" && elem1 !=""){
                 document.getElementById("rof6").innerHTML= rofd;
-            }else{
+            }else if(rof7 =="" && elem1 !=""){
                 document.getElementById("rof7").innerHTML= rofd ;
                 vs4();
                 
@@ -75,12 +88,15 @@ for(d of roundof16d){
 // grupo e
 for(a of roundof16e){
     a.addEventListener('click', function(){
-      let rofe = this.innerHTML; 
+      let rofe = this.innerHTML;
+      let elem1 = rofe;
+      document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed'; 
         function s(){
             const rof9 = document.getElementById("rof9").innerText;
-            if(rof9 != ""){
+            if(rof9 != ""  && elem1 !=""){
                 document.getElementById("rof12").innerHTML= rofe;
-            }else{
+            }else if(rof9 =="" && elem1 !=""){
                 document.getElementById("rof9").innerHTML= rofe ;
                 vs5();
                 
@@ -92,11 +108,14 @@ for(a of roundof16e){
 for(a of roundof16f){
     a.addEventListener('click', function(){
       let roff = this.innerHTML;
+      let elem1 = roff;
+      document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed';
         function s(){
             const rof11 = document.getElementById("rof11").innerText;
-            if(rof11 != ""){
+            if(rof11 != ""  && elem1 !=""){
                 document.getElementById("rof10").innerHTML= roff;
-            }else{
+            }else if(rof11 =="" && elem1 !=""){
                 document.getElementById("rof11").innerHTML= roff ;
                 vs6();
                 
@@ -107,12 +126,15 @@ for(a of roundof16f){
 for(a of roundof16g){
     a.addEventListener('click', function(){
       let rofg = this.innerHTML; 
+      let elem1 = rofg;
+      document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed';
         function s(){
             const rof13 = document.getElementById("rof13").innerText;
-            if(rof13 != ""){
+            if(rof13 != ""  && elem1 !=""){
                 document.getElementById("rof16").innerHTML= rofg;
                 
-            }else{
+            }else if(rof13 =="" && elem1 !=""){
                 document.getElementById("rof13").innerHTML= rofg ;
                 vs7();
                 
@@ -124,12 +146,15 @@ for(a of roundof16g){
 for(a of  roundof16h){
     a.addEventListener('click', function(){
       let rofh = this.innerHTML; 
+      let elem1 = rofh;
+      document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed';
         function s(){
             const rof15 = document.getElementById("rof15").innerText;
-            if(rof15 != ""){
+            if(rof15 != ""  && elem1 !=""){
                 document.getElementById("rof14").innerHTML= rofh;
                 moveQ();
-            }else{
+            }else if(rof15 =="" && elem1 !=""){
                 document.getElementById("rof15").innerHTML= rofh ;
                 vs8();
                
@@ -167,7 +192,7 @@ function vs8(){
   function moveQ(){
     const pageWidth  = document.documentElement.scrollWidth;
     if(pageWidth <=399){
-       window.scrollTo(0,1900) 
+       window.scrollTo(0,1050) 
     }else if(pageWidth <=480){
     window.scrollTo(0,1100);
     }else if(pageWidth <=768){

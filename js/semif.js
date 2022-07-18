@@ -7,6 +7,8 @@ let sem4 = document.querySelectorAll('.semWin4');
 for(a of  sem1){
     a.addEventListener('click', function(){
       let semwinA = this.innerHTML; 
+      document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed'; 
       
         function s(){
             const semiQatarwin2 = document.getElementById("semiQatar2").innerText;
@@ -17,6 +19,8 @@ for(a of  sem1){
     for(a of  sem2){
         a.addEventListener('click', function(){
           let semwinB = this.innerHTML; 
+          document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed'; 
             function s(){
                 const semiQatarwin1 = document.getElementById("semiQatar1").innerText;
                     document.getElementById("semiQatar1").innerHTML= semwinB;
@@ -28,6 +32,8 @@ for(a of  sem1){
         for(a of  sem3){
             a.addEventListener('click', function(){
               let semwinC = this.innerHTML; 
+              document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed'; 
                 function s(){
                     const semiQatarwin4 = document.getElementById("semiQatar4").innerText;
                         document.getElementById("semiQatar4").innerHTML= semwinC;
@@ -38,6 +44,8 @@ for(a of  sem1){
             for(a of  sem4){
                 a.addEventListener('click', function(){
                   let semwinD = this.innerHTML; 
+                  document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed'; 
                     function s(){
                         const semiQatarwin3 = document.getElementById("semiQatar3").innerText;
                             document.getElementById("semiQatar3").innerHTML= semwinD;
@@ -69,6 +77,8 @@ let finalClas2 = document.querySelectorAll('.semiQatarwin2');
 for(a of  finalClas1){
   a.addEventListener('click', function(){
     let finalClasA = this.innerHTML; 
+    document.getElementById(this.id).innerHTML=' USED ';
+     document.getElementById(this.id).style.cursor='not-allowed';
       function s(){
           const finalf1 = document.getElementById("FinalGame1").innerText;
       if(finalf1 != ""){
@@ -84,6 +94,8 @@ for(a of  finalClas1){
   for(a of  finalClas2){
     a.addEventListener('click', function(){
       let finalClasB = this.innerHTML; 
+      document.getElementById(this.id).innerHTML=' USED ';
+      document.getElementById(this.id).style.cursor='not-allowed';
         function s(){
             const finalClasb = document.getElementById("FinalGame2").innerText;
             if(finalClasb != ""){
@@ -121,6 +133,8 @@ for(a of  finalClas1){
  for(a of  tPlace1){
   a.addEventListener('click', function(){
     let tPlace1 = this.innerHTML; 
+    document.getElementById(this.id).innerHTML=' USED ';
+    document.getElementById(this.id).style.cursor='not-allowed';
       function s(){
           const tplaceClasA = document.getElementById("Finaltplace").innerText;
               document.getElementById("Finaltplace").innerHTML= " is : "+tPlace1;
@@ -134,6 +148,8 @@ for(a of  finalClas1){
       for(a of  finalwin){
         a.addEventListener('click', function(){
           let finalWin = this.innerHTML; 
+          document.getElementById(this.id).innerHTML=' USED ';
+          document.getElementById(this.id).style.cursor='not-allowed';
             function s(){
                 const finalClasb = document.getElementById("FinalWin").innerText;
                 if(finalClasb != ""){
