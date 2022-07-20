@@ -15,6 +15,8 @@ for(a of roundof16a){
       let elem1 = element;
      document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed';
+     document.getElementById(this.id).style.backgroundColor= "#ce9bab"; 
+
         function s(){
             const qf1 = document.getElementById("rof1").innerText;
             if(qf1 != "" && elem1 !=""){
@@ -35,7 +37,9 @@ for(b of roundof16b){
       let elements = this.innerHTML; 
       let elem1 = elements;
       document.getElementById(this.id).innerHTML=' USED ';
-     document.getElementById(this.id).style.cursor='not-allowed';        
+     document.getElementById(this.id).style.cursor='not-allowed'; 
+          document.getElementById(this.id).style.backgroundColor= "#ce9bab"; 
+       
         function s(){
             const rof3 = document.getElementById("rof3").innerText;
             if(rof3 != "" && elem1 !=""){
@@ -56,6 +60,8 @@ for(c of roundof16c){
       let elem1 = rofc;
       document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed';
+          document.getElementById(this.id).style.backgroundColor= "#ce9bab"; 
+
         function s(){
             const rof5 = document.getElementById("rof5").innerText;
             if(rof5 != "" && elem1 !=""){
@@ -73,7 +79,9 @@ for(d of roundof16d){
       let rofd = this.innerHTML; 
       let elem1 = rofd;
       document.getElementById(this.id).innerHTML=' USED ';
-     document.getElementById(this.id).style.cursor='not-allowed';        
+     document.getElementById(this.id).style.cursor='not-allowed'; 
+          document.getElementById(this.id).style.backgroundColor= "#ce9bab"; 
+       
         function s(){
             const rof7 = document.getElementById("rof7").innerText;
             if(rof7 != "" && elem1 !=""){
@@ -92,6 +100,8 @@ for(a of roundof16e){
       let elem1 = rofe;
       document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+          document.getElementById(this.id).style.backgroundColor= "#ce9bab"; 
+
         function s(){
             const rof9 = document.getElementById("rof9").innerText;
             if(rof9 != ""  && elem1 !=""){
@@ -111,6 +121,8 @@ for(a of roundof16f){
       let elem1 = roff;
       document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed';
+          document.getElementById(this.id).style.backgroundColor= "#ce9bab"; 
+
         function s(){
             const rof11 = document.getElementById("rof11").innerText;
             if(rof11 != ""  && elem1 !=""){
@@ -129,6 +141,8 @@ for(a of roundof16g){
       let elem1 = rofg;
       document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed';
+          document.getElementById(this.id).style.backgroundColor= "#ce9bab"; 
+
         function s(){
             const rof13 = document.getElementById("rof13").innerText;
             if(rof13 != ""  && elem1 !=""){
@@ -149,6 +163,8 @@ for(a of  roundof16h){
       let elem1 = rofh;
       document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed';
+          document.getElementById(this.id).style.backgroundColor= "#ce9bab"; 
+
         function s(){
             const rof15 = document.getElementById("rof15").innerText;
             if(rof15 != ""  && elem1 !=""){

@@ -13,6 +13,7 @@ for(a of  qof53){
         let semwinA = this.innerHTML; 
         document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#c70c44"; 
         function s(){
                 document.getElementById("smf1").innerHTML= semwinA ;
               }
@@ -24,6 +25,7 @@ for(a of  qof53){
           let qof2 = this.innerHTML; 
           document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#c70c44"; 
             function s(){
                 const smf2 = document.getElementById("smf2").innerText;
                     document.getElementById("smf2").innerHTML= qof2;
@@ -39,6 +41,7 @@ for(a of  qof53){
             let qof3 = this.innerHTML; 
             document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#c70c44"; 
               function s(){
                       document.getElementById("smf3").innerHTML= qof3 ;
                     }
@@ -50,6 +53,7 @@ for(a of  qof53){
               let qof4 = this.innerHTML; 
               document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#c70c44"; 
                 function s(){
                         document.getElementById("smf4").innerHTML= qof4;
                         vs10();
@@ -64,6 +68,7 @@ for(a of  qof53){
             let qof5 = this.innerHTML; 
             document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#c70c44"; 
               function s(){
                       document.getElementById("smf5").innerHTML= qof5 ;
                     }
@@ -75,6 +80,7 @@ for(a of  qof53){
               let qof6 = this.innerHTML; 
               document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#c70c44"; 
                 function s(){
 
                         document.getElementById("smf6").innerHTML= qof6;
@@ -90,6 +96,7 @@ for(a of  qof53){
             let qof7 = this.innerHTML; 
             document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#c70c44"; 
               function s(){
                       document.getElementById("smf7").innerHTML= qof7 ;
                     }
@@ -101,6 +108,7 @@ for(a of  qof53){
               let qof8 = this.innerHTML; 
               document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#c70c44"; 
                 function s(){
                         document.getElementById("smf8").innerHTML= qof8;
                         vs12();

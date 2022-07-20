@@ -9,6 +9,8 @@ for(a of  sem1){
       let semwinA = this.innerHTML; 
       document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#87082e"; 
+     document.getElementById(this.id).style.color= "white";
       
         function s(){
             const semiQatarwin2 = document.getElementById("semiQatar2").innerText;
@@ -21,6 +23,8 @@ for(a of  sem1){
           let semwinB = this.innerHTML; 
           document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#87082e"; 
+     document.getElementById(this.id).style.color= "white";
             function s(){
                 const semiQatarwin1 = document.getElementById("semiQatar1").innerText;
                     document.getElementById("semiQatar1").innerHTML= semwinB;
@@ -34,6 +38,8 @@ for(a of  sem1){
               let semwinC = this.innerHTML; 
               document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#87082e"; 
+     document.getElementById(this.id).style.color= "white";
                 function s(){
                     const semiQatarwin4 = document.getElementById("semiQatar4").innerText;
                         document.getElementById("semiQatar4").innerHTML= semwinC;
@@ -46,6 +52,8 @@ for(a of  sem1){
                   let semwinD = this.innerHTML; 
                   document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed'; 
+     document.getElementById(this.id).style.backgroundColor= "#87082e"; 
+     document.getElementById(this.id).style.color= "white";
                     function s(){
                         const semiQatarwin3 = document.getElementById("semiQatar3").innerText;
                             document.getElementById("semiQatar3").innerHTML= semwinD;
@@ -79,6 +87,8 @@ for(a of  finalClas1){
     let finalClasA = this.innerHTML; 
     document.getElementById(this.id).innerHTML=' USED ';
      document.getElementById(this.id).style.cursor='not-allowed';
+      document.getElementById(this.id).style.backgroundColor= "#6b0624"; 
+      document.getElementById(this.id).style.color= "white";
       function s(){
           const finalf1 = document.getElementById("FinalGame1").innerText;
       if(finalf1 != ""){
@@ -96,6 +106,8 @@ for(a of  finalClas1){
       let finalClasB = this.innerHTML; 
       document.getElementById(this.id).innerHTML=' USED ';
       document.getElementById(this.id).style.cursor='not-allowed';
+       document.getElementById(this.id).style.backgroundColor= "#6b0624"; 
+       document.getElementById(this.id).style.color= "white";
         function s(){
             const finalClasb = document.getElementById("FinalGame2").innerText;
             if(finalClasb != ""){
@@ -157,6 +169,7 @@ for(a of  finalClas1){
                   
               }else{
                     document.getElementById("FinalWin").innerHTML= finalWin;
+                    alert("The champion of the World Cup according to you will be: "+finalWin )
                     movewin(); 
                   }}
             s();
