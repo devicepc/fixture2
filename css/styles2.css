@@ -179,6 +179,16 @@ header label:hover {
    text-align:justify;
    margin: 3px 0 0 0;
 }
+#titleprint {
+   display: none; 
+   text-align: center;
+   font-size: 2.5rem;
+}
+#titleprint2 {
+   display: none; 
+   text-align: center;
+   font-size: 2.5rem;
+}
  
 
  @media  (max-width:768px){
